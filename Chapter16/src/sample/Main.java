@@ -22,4 +22,7 @@ public class Main extends Application {
 
     16.3 Button: controls the trigger of an action event when clicked, it is like a button except it also has an action.
     It extends Labeled.
+
+    16.4 CheckBox: Similar to button except that is has a method to check if the check box has been selected.
+
  */
