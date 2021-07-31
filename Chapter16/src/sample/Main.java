@@ -32,4 +32,6 @@ public class Main extends Application {
     ...TextField tfMessage = new TextField("T-Strom");
     tfMessage.someMethod();
 
+    16.7 TextArea: enables you to enter multiple lines of text
+
  */
