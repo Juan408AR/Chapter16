@@ -25,4 +25,11 @@ public class Main extends Application {
 
     16.4 CheckBox: Similar to button except that is has a method to check if the check box has been selected.
 
+    16.5 Radio Button: you can group the buttons into their own little grouped where you can only select one of many radio Buttons
+    but you have to group them explicitly
+
+    16.6 TextField: used to enter or display a string of text inside of a field
+    ...TextField tfMessage = new TextField("T-Strom");
+    tfMessage.someMethod();
+
  */
