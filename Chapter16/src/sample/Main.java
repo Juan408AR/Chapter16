@@ -34,4 +34,12 @@ public class Main extends Application {
 
     16.7 TextArea: enables you to enter multiple lines of text
 
+    16.8 ComboBox: known as a dropdown list, contains a list of items from which the user can choose from
+    syntax...ComboBox<data type> cbo = new ComboBox<>();
+    cbo.getItems().addAll(...)  // similar to nodes, is this a node?
+    cbo.setStyle("html code");
+    cbo.setValue("which will appear first ?");
+
+
+
  */
