@@ -40,6 +40,7 @@ public class Main extends Application {
     cbo.setStyle("html code");
     cbo.setValue("which will appear first ?");
 
-
+    16.9 ListView: similar to comboBox in that you get a list of items, except with list view you
+    can select one or multiple items from the list.
 
  */
