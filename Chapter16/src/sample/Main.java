@@ -43,4 +43,7 @@ public class Main extends Application {
     16.9 ListView: similar to comboBox in that you get a list of items, except with list view you
     can select one or multiple items from the list.
 
+    16.10 ScrollBar: has multiple features such as a thumb,track, and buttons to manipulate the scrollbar
+
+
  */
