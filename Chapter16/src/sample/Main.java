@@ -45,5 +45,8 @@ public class Main extends Application {
 
     16.10 ScrollBar: has multiple features such as a thumb,track, and buttons to manipulate the scrollbar
 
+    16.11 Slider: similar to scrollbar but it has more features and it's appearance can be altered.
+    Notice how we create a pane for each node when proper...such as one for text and another for the
+    scroll which we include the text pane into
 
  */
