@@ -49,7 +49,12 @@ public class Main extends Application {
     Notice how we create a pane for each node when proper...such as one for text and another for the
     scroll which we include the text pane into
 
-    16.12 Developing a Tic-tac-toe Game
+    16.12 Developing a Tic-tac-toe Game: separated the structure/template from the brain/engines.
+    Learned how to isolate each method/engine that did a specific unique purpose and use them together in the main
+    in order to get the game as a whole to work. The template was used to provide pieces of info that the engines would use
+    like the letter and grid.
+
+
 
 
  */
