@@ -1,5 +1,6 @@
 *Ch 17.4 Binary I/O Class:
-    +There is an object, this object is either an input or output subclass,
+    +Java programs can read binary which allows portability.
+    There is an object, this object is either an input or output subclass,
     then there is file,filter,and stream that is unique depending if it is a input or output.
     Then there is a buffer and data subclass.
     ! in general most I/O have and require a way to handle an exception whether it be try and catch or a throws
@@ -7,3 +8,15 @@
     +Lean how to use the classes fileInputStream and fileOutputStream and
     ! we use "try with resources" to close something that needs to be closed automatically
     using the try with resources trick.
+*Ch 17.4.2 FilterInputStream/FilterOutputStream:
+    +Filter stream only works with bytes and characters...
+    ! a wrapper class is needed if you want to work with other real numbers such as integers and doubles
+    known as primitive numeric types. ...we a are give a class DataInput/OutputStream to handle such as case
+*Ch 17.4.3 DataInputStream/DataOutputStream: both of these are specialization of their respective Filter class
+    +The DataInputStream converts byte to primitive data whereas and DataOutputStream does the opposite.
+    We use the appropriate Data read/writer depending on the data because sometimes the data
+    has data that is not used which allows use to ignore the useless sections and obtain only
+    the useful portion...this saves time and space. The ex we used was ascii being in lower byte compared to the unicode needing
+    two bytes, but if we want only ascii we can ignore the upper byte of the unicode if possible.
+
+
