@@ -1,0 +1,9 @@
+*Ch 17.4 Binary I/O Class:
+    +There is an object, this object is either an input or output subclass,
+    then there is file,filter,and stream that is unique depending if it is a input or output.
+    Then there is a buffer and data subclass.
+    ! in general most I/O have and require a way to handle an exception whether it be try and catch or a throws
+*Ch 17.4.1 FileInputStream/FileOutputStream:
+    +Lean how to use the classes fileInputStream and fileOutputStream and
+    ! we use "try with resources" to close something that needs to be closed automatically
+    using the try with resources trick.
