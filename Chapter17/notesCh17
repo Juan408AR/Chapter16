@@ -18,5 +18,22 @@
     has data that is not used which allows use to ignore the useless sections and obtain only
     the useful portion...this saves time and space. The ex we used was ascii being in lower byte compared to the unicode needing
     two bytes, but if we want only ascii we can ignore the upper byte of the unicode if possible.
+    +If you keep reading data at the end of an inputStream an exception will occur, you can use this to check if the
+    end of a file has been reached. We use an inner try w/ resource to automatically close our I/O stream
+    and an outer one to catch the end of the file
+*Ch 17.4.4 BufferedInputStream/BufferedOutputStream: faster than one by one
+    from stack----+ Think of what happens when you want to read data from a harddisk. To read a byte at a certain location, you have
+    to wait until the disk has rotated until the head is above the location on disk where the byte to be read is.
+     If you'd read just 1 byte at that moment, and the next byte later, you'd have to wait until the disk has made a
+     full rotation to read the next byte. It's much more efficient to read a block of consecutive bytes.
+    + Instead of reading one by one then try to find the next data to read which could create some background work try to
+    access the data again, you could read data as chunks into a buffer(location in memory) and then from there process the data...
+    this is better because there is less background work since you read a chunk and are not going through the issue of jumping
+    to the next byte of data.
+    + You have to be able to handle the issues of when the buffer is full by releasing the data in the buffer somehow
+    in order to process the next chunk of data if possible.
+*Ch 17.5 Case Study: Copying Files
+    + We will create a utility to copy files.
+
 
 
