@@ -34,6 +34,12 @@
     in order to process the next chunk of data if possible.
 *Ch 17.5 Case Study: Copying Files
     + We will create a utility to copy files.
+*17.6 Object I/O: we've learned about streams for data that is primitive but now we will apply
+    a similar aspect to using an object stream
+    + syntax for wrapper public objectinputstream(inputstram in)
+    + !! Don't forget to handle the expression because some object/methods require you to handle the expression by using a throws or a catch or even both idk lol
+    + 17.6.1 The Serializable Interface: learned how to store/read objectstreams into files this
+        allows use to store versions of an object into a byte stream
 
 
 
