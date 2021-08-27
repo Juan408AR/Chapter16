@@ -40,6 +40,9 @@
     + !! Don't forget to handle the expression because some object/methods require you to handle the expression by using a throws or a catch or even both idk lol
     + 17.6.1 The Serializable Interface: learned how to store/read objectstreams into files this
         allows use to store versions of an object into a byte stream
-
+    + 17.7: Random Access file: learned how to read and write or just one into a file in any order...
+        Random access file means you can access the file I/O in any position in the file that the user desires
+        ...in prior lessons we read and wrote in a sequential order but here we have
+        a 'pointer' and can set its index
 
 
